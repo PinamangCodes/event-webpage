@@ -9,43 +9,49 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <section class="flex items-center justify-between container mx-auto p-8 bg-red-600">
+    <section class="flex container flex-wrap md:items-start justify-between  mx-auto p-8 font-semibold">
         <div>Logo</div>
-        <div class="space-x-6 ">
+        <div class="space-x-6">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Schedule</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
         </div>
-        <div class="text-white bg-blue-900 rounded-full">Buy Tickets</div>
+        <div class="text-red-700 hover:bg-slate-500 rounded-lg">Buy Tickets</div>
     </section>
 
-    <section class="flex justify-between container bg-blue-800 mx-auto pt-8 pb-80">
+    <section class="flex justify-between md:items-center container  mx-auto pt-8 pb-8 space-x-6 bg-[url('/images/img0.jpg')]">
         <!--Left side-->
-        <div class="self-center">
-            <h2 class="text-4xl font-extrabold">Hood Wallstreet </h2>
+        <div class="grow self-end pb-80 space-y-5" >
+            <h2 class="text-4xl text-cyan-900 font-extrabold leading-loose">Hood Wallstreet</h2>
             <p class="italic">wallstreet loooks like us now!</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
               </svg>
-            <span>21-25 September 2023 - Accra Digital Hub, Ghana</span>
+               <span>21-25 September 2023 - Accra Digital Hub, Ghana</span>
         </div>
         <!--right side-->
-        <div class="bg-white self-center ">
+        <div class="self-center pb-80 space-y-4 ">
             <h2>Register Here</h2>
-            <form>
-                <input  type="text" placeholder="Enter your Name" name="name"><br>
-                <input type="text" placeholder="Enter your Email" name="email"><br>
-                <input type="text" placeholder="Enter your Phone" name="phone"><br>
+            <form class="space-y-4">
+               
+                <input  type="text" placeholder="Enter your Name" name="name" class="w-full border-gray-300 rounded-lg shadow-sm"><br>
+                
+                <input type="text" placeholder="Enter your Email" name="email" class="w-full border-gray-300 rounded-lg shadow-sm"><br>
+            
+                <input type="text" placeholder="Enter your Phone" name="phone" class="w-full border-gray-300 rounded-lg shadow-sm"><br>
+
+                
                 <input type="checkbox"  name="check" >
-                <label for="check"> I have read and accept all  terms and conditions</label><br>
+                <label for="check" > I have read and accept all  terms and conditions</label><br>
+                
                 <button class="bg-red-400" type="button">Join now</button>
             </form>
         </div>
     </section>
 
-    <section class="flex items-center justify-between container bg-slate-400 mx-auto p-8">
+    <section class="flex items-center justify-between container mx-auto p-8">
         <!--speakers/cards-->
         <div>
             <figure>
